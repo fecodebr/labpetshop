@@ -1,8 +1,13 @@
 <p align="center">
   <img alt="logo da barbearia alura" src="./imagens/logo-labpetshop.png">
 </p>
-<br>
 
+
+------
+
+📌 **Status:** Concluído
+
+------
 ## 💻 Sobre o projeto
 
 Nessa atividade construi uma aplicação Web utilizando <b>APENAS HTML</b> seguindo as especificações a seguir. Criar um sistema Web para um PetShop. Escolha um nome para o negócio e uma imagem que representa o logotipo da empresa. O sistema Web contém uma seção aberta ao público em geral com as seguintes seções:
