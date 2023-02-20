@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LABPETSHOP - Contato</title>
+</head>
+<body>
+	<header>
+		<div>
+		  <a href="../index.html">
+			<img src="../imagens/logo-labpetshop.png" alt="Logo do Lab Pet Shop">
+		  </a>
+		  <nav>
+			<ul>
+			  <li><a href="../index.html">Início</a></li>
+			  <li><a href="../paginas/servicos-e-produtos.html">Produtos & Serviços</a></li>
+			  <li><a href="../paginas/depoimentos.html">Depoimentos</a></li>
+			</ul>
+		  </nav>
+		</div>
+	  </header>
+
+	<section>
+  		<h3>Nosso estabelecimento</h3>
+  			<p>Localização fictícia</p>
+  				<div>
+    				<iframe width="100%" height="300" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7316.4947221456205!2d-46.613045!3d-23.523604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58ea9d0d27d3%3A0xb752ab620375d11e!2sPetz!5e0!3m2!1spt-BR!2sus!4v1676409845652!5m2!1spt-BR!2sus" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  				</div>
+	</section>
+
+    <main>
+		<!-- Formulário de contato -->				
+		<br>				
+		<form style="text-align: center;">
+			<h3 id="contato">Tem alguma dúvida? Preencha o formulário abaixo e envie sua mensagem.</h3>
+			<label for="nome-sobrenome">Nome</label>
+			<input type="text" id="nome-sobrenome" required placeholder="Nome completo">
+			<br>
+			<br>
+			<label for="email">Email</label>
+			<input type="email" id="email" required placeholder="seuemail@dominio.com">
+			<br>
+			<br>
+			<label for="telefone">Telefone</label>					
+			<input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
+			<br>
+			<br>
+			<label for="mensagem">Mensagem</label>
+			<br>
+			<textarea cols="70" rows="10" id="mensagem" required></textarea>
+			<br>
+			<br>
+			<fieldset style="width: 30%; margin-left: auto; margin-right: auto;">
+				<legend>Como prefere o nosso contato?</legend>
+				<label><input type="radio" name="contato" value="email">Email</label>
+				<label><input type="radio" name="contato" value="telefone">Telefone</label>
+				<label><input type="radio" name="contato" value="whatsapp" checked>WhatsApp</label>
+			</fieldset>
+			<br>
+			<br>
+			<fieldset style="width: 30%; margin-left: auto; margin-right: auto;">						
+				<legend>Qual horário prefere ser atendido?</legend>
+				<select>
+					<option>Manhã - 08h às 11h</option>
+					<option>Tarde - 12h às 17h</option>
+					<option>Noite - 18h às 21h</option>
+				</select>
+			</fieldset>
+			<br>
+			<br>
+			<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+			<br><br>	
+			<input style="width:40%; padding: 15px 0; font-size: 18px; cursor: pointer;" type="submit" value="Enviar formulário" class="enviar">
+		</form>
+	</main> 
+
+	<footer style="text-align: center; padding: 20px; margin: 20px;">
+		<a href="../index.html">
+		  <img src="../imagens/logo-labpetshop-escuro.png" alt="Logo da LABPETSHOP">
+		</a>     
+		<p>&copy; 2023 LABPETSHOP. Todos os direitos reservados.</p>
+		<p>Desenvolvido por <a href="https://github.com/fecodebr">N.F.S.S</a></p>
+		<address>
+		  <p>Tel.: +55 11 0000-000 | Av. Pres. Castelo Branco, 1795 - Pari, São Paulo - SP, 03035-050, Brasil</p>
+		</address>
+	  </footer>
+</body>
+</html>
